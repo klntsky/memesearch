@@ -1,7 +1,7 @@
 export type IMeme = {
   id: string
   channel: string
-  message: string
+  messageId: string
   fileName: string
   text: Record<'eng', string>
 }

@@ -222,7 +222,7 @@ export const MemePage = () => {
           <ChannelBlock
             isAdmin={isAdmin}
             username={request.data.channel}
-            id={request.data.message}
+            id={request.data.messageId}
             {...stylex.props(s.sourceBlock)}
             onClickImages={onClickChannelImages}
             onClickEraser={onClickDeleteChannelMemes}
